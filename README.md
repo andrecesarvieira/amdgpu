@@ -22,6 +22,21 @@ o firmware e a GPU realmente oferecem o arquivo correspondente em
 `/sys/class/drm/card*/device` ou no respectivo `hwmon`. Não são mostradas opções
 inoperantes para curva de ventoinha, Zero RPM, clock ou tensão.
 
+## Capturas
+
+### GPU dedicada
+
+A interface apresenta a telemetria e somente os controles realmente expostos
+pelo hardware dedicado.
+
+![AMDGPU Control em uma GPU dedicada](design/review-2026-08-28/implementation/rpm-2.0.0-dgpu.png)
+
+### GPU integrada
+
+Na GPU integrada, os controles indisponíveis são removidos automaticamente.
+
+![AMDGPU Control em uma GPU integrada](design/review-2026-08-28/implementation/rust-option-1-igpu-large.png)
+
 ## Comportamento em segundo plano
 
 `amdgpu-control --background` inicia o StatusNotifierItem sem abrir a janela.
