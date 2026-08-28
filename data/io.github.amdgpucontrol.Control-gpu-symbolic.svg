@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <!-- A bold dual-fan graphics card silhouette for 16 px GNOME panels. -->
+  <path fill="#000" fill-rule="evenodd" d="
+    M2 3h12.25C15.22 3 16 3.78 16 4.75v5.5c0 .97-.78 1.75-1.75 1.75H2V3Zm3.35 1.65a2.85 2.85 0 1 0 0 5.7 2.85 2.85 0 0 0 0-5.7Zm6.4 0a2.85 2.85 0 1 0 0 5.7 2.85 2.85 0 0 0 0-5.7Z"/>
+  <path fill="#000" d="M0 2h1.75v12H0V2Zm3.5 12h7v-1.75h-7V14Z"/>
+  <g fill="#000">
+    <circle cx="5.35" cy="7.5" r=".72"/>
+    <circle cx="11.75" cy="7.5" r=".72"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.15">
+    <path d="M5.35 5.35v1M5.35 8.65v1M3.2 7.5h1M6.5 7.5h1"/>
+    <path d="M11.75 5.35v1M11.75 8.65v1M9.6 7.5h1M12.9 7.5h1"/>
+  </g>
+</svg>

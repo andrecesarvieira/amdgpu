@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=AMDGPU Control
+Comment=Monitore e ajuste sua GPU AMD
+Exec=amdgpu-control
+Icon=io.github.amdgpucontrol.Control
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+Keywords=AMD;GPU;Radeon;clock;voltage;
+StartupNotify=true

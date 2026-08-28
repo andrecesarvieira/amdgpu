@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=AMDGPU Control Tray
+Comment=Monitore a GPU AMD na bandeja do sistema
+Exec=amdgpu-control --background
+Icon=io.github.amdgpucontrol.Control
+Terminal=false
+NoDisplay=true
+OnlyShowIn=GNOME;
+X-GNOME-Autostart-enabled=true

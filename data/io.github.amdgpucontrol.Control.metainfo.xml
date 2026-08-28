@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.amdgpucontrol.Control</id>
+  <name>AMDGPU Control</name>
+  <summary>Monitore e ajuste GPUs AMD no GNOME</summary>
+  <developer id="io.github.amdgpucontrol"><name>AMDGPU Control contributors</name></developer>
+  <url type="homepage">https://github.com/amdgpucontrol/amdgpu-control</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <description>
+    <p>Aplicativo Rust com GTK4/libadwaita para telemetria e controles seguros do driver amdgpu.</p>
+    <p>A interface exibe somente ajustes realmente oferecidos por cada GPU e pela versão atual do driver.</p>
+  </description>
+  <launchable type="desktop-id">io.github.amdgpucontrol.Control.desktop</launchable>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="2.0.0" date="2026-08-28">
+      <description><p>Migração completa para Rust e nova interface orientada às capacidades do hardware.</p></description>
+    </release>
+    <release version="1.0.0" date="2026-08-17"/>
+  </releases>
+</component>

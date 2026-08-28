@@ -1,0 +1,16 @@
+/target/
+/dist/
+
+# Pacotes e artefatos gerados
+*.rpm
+*.src.rpm
+*.tar.gz
+*.log
+*.tmp
+
+# Editores e sistema operacional
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+*~
